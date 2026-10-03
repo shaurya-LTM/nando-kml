@@ -51,7 +51,7 @@ docsearch = PineconeVectorStore.from_existing_index(
     embedding=embeddings
 )
 
-retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 20})
+retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 100})
 
 def load_pdf_file(file_path):
     loader = PyPDFLoader(file_path)
