@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-pinecone>=0.2.0
+langchain-groq
+pinecone>=3.0.0
+sentence-transformers
+pypdf
+beautifulsoup4
+requests
+numpy
+python-dotenv
