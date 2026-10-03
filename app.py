@@ -53,10 +53,10 @@ st.markdown("""
         color: #dbeafe;
     }
     </style>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)  # Fixed parameter name here
 
-st.markdown('<div class="hero-title">🚀 SPACE RESEARCH ASSISTANT</div>', unsafe_allowed_html=True)
-st.markdown('<div class="hero-sub">Explore the universe • Discover the unknown • Ask anything about space 🌌</div>', unsafe_allowed_html=True)
+st.markdown('<div class="hero-title">🚀 SPACE RESEARCH ASSISTANT</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-sub">Explore the universe • Discover the unknown • Ask anything about space 🌌</div>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="badge-container">
@@ -65,7 +65,7 @@ st.markdown("""
     <span class="badge">🧠 RAG Powered</span>
     <span class="badge">🤖 AI Assistant</span>
 </div>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
 @st.cache_resource
 def load_chain():
